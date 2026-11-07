@@ -1,5 +1,6 @@
 <script setup>
 import AppIcon from '../components/AppIcon.vue'
+import BrandMark from '../components/BrandMark.vue'
 import FallbackImage from '../components/FallbackImage.vue'
 import { IMGS } from '../data'
 
@@ -19,12 +20,7 @@ const emit = defineEmits(['enter'])
 
     <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-6">
       <div class="fade-up-delay-1 mb-6">
-        <svg width="56" height="56" viewBox="0 0 56 56" fill="none">
-          <circle cx="28" cy="28" r="26" stroke="#E8650A" stroke-width="0.8" opacity="0.7" stroke-dasharray="2 2" />
-          <circle cx="28" cy="28" r="18" stroke="#E8650A" stroke-width="0.8" opacity="0.5" />
-          <circle cx="28" cy="28" r="2.5" fill="#E8650A" />
-          <path d="M28 10 L32 26 L28 42 L24 26 Z" fill="#E8650A" opacity="0.85" />
-        </svg>
+        <BrandMark :size="56" framed />
       </div>
       <h1 class="fade-up-delay-1 font-display text-white leading-[0.95] tracking-tight" style="font-size: 82px; font-weight: 900">
         味途

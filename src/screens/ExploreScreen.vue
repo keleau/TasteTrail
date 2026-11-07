@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 import AppIcon from '../components/AppIcon.vue'
+import BrandMark from '../components/BrandMark.vue'
 import Parallax from '../components/Parallax.vue'
 import Eyebrow from '../components/Eyebrow.vue'
 import Reveal from '../components/Reveal.vue'
@@ -29,8 +30,8 @@ const featuredMeal = () => props.countryData[props.chefMealKey]
     <div class="sticky top-0 z-20 transition-all duration-500" :class="stick ? 'glass-nav py-3 border-b border-stone-300/40' : 'bg-transparent py-5'">
       <div class="px-6 flex items-center justify-between">
         <div class="flex items-center gap-2">
-          <div class="w-7 h-7 rounded-full bg-[#1A1208] flex items-center justify-center">
-            <span class="text-[#E8650A] text-[11px] font-bold">味</span>
+          <div class="w-7 h-7 rounded-full bg-[#1C2B45] flex items-center justify-center">
+            <BrandMark :size="18" />
           </div>
           <span class="text-stone-700 text-[11px] tracking-[0.3em] uppercase">味途</span>
         </div>
