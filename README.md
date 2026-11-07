@@ -7,7 +7,7 @@
 
   Vue 3 · Vite 8 · Tailwind CSS 4 · JavaScript · 零后端依赖
 
-  [在线体验](https://keleau.github.io/TasteTrail/) · [GitHub 仓库](https://github.com/keleau/TasteTrail) · [Gitee 镜像](https://gitee.com/keleau/tastetrail)
+  [在线体验](https://keleau.github.io/TasteTrail/) · [GitHub 仓库](https://github.com/keleau/TasteTrail) · [Gitee 镜像](https://gitee.com/keleau/taste-trail)
 </div>
 
 ---
@@ -147,4 +147,4 @@ npm run preview
 
 **吴东盛** · 广州城建职业学院 · 2027 届 · 计算机应用技术
 
-GitHub：[@keleau](https://github.com/keleau) · Gitee：[@keleau](https://gitee.com/keleau) · 项目镜像：[Gitee](https://gitee.com/keleau/tastetrail)
+GitHub：[@keleau](https://github.com/keleau) · Gitee：[@keleau](https://gitee.com/keleau) · 项目镜像：[Gitee](https://gitee.com/keleau/taste-trail)
