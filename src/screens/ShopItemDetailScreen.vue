@@ -20,6 +20,7 @@ const checked = ref(new Set())
 const flyAnimId = ref(null)
 
 const isDish = computed(() => props.item.category === 'dish')
+const hasPhoto = computed(() => Boolean(props.item.img))
 const meal = computed(() => (
   isDish.value && props.item.country && props.item.mealKey ? COUNTRIES[props.item.country][props.item.mealKey] : null
 ))
@@ -198,7 +199,7 @@ function getRecommendations(item, count = 4, seed = 0) {
       </div>
 
       <section class="relative h-[380px]">
-        <FallbackImage v-if="isDish" :src="item.img" :alt="item.cn" class="w-full h-full object-cover" />
+        <FallbackImage v-if="hasPhoto" :src="item.img" :alt="item.cn" class="w-full h-full object-cover" />
         <ProductArtwork v-else :item="item" variant="hero" class="w-full h-full" />
         <div class="absolute inset-0 bg-gradient-to-b from-black/45 via-black/5 to-black/75" />
 
@@ -375,7 +376,7 @@ function getRecommendations(item, count = 4, seed = 0) {
             <button class="group relative w-full text-left active:scale-95 transition-transform duration-200" @click="emit('navigate', rec)">
               <div class="relative w-full aspect-square rounded-2xl overflow-hidden bg-stone-100 shadow-sm ring-1 ring-stone-200/60">
                 <FallbackImage
-                  v-if="rec.category === 'dish'"
+                  v-if="rec.img"
                   :src="rec.img"
                   :alt="rec.cn"
                   loading="lazy"

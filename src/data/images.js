@@ -58,5 +58,9 @@ export const IMGS = {
   khanomJeen: image('food/khanomJeen.jpg'),
   centuryEggTofu: image('food/centuryEggTofu.jpg'),
   jianbing: image('food/jianbing.jpg'),
+
+  garlic: image('items/garlic.jpg'),
+  wheatGluten: image('items/wheatGluten.jpg'),
+  sesameOil: image('items/sesameOil.jpg'),
 }
 

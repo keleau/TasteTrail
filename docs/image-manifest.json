@@ -341,5 +341,26 @@
     "file": "images/food/jianbing.jpg",
     "source": "https://images.pexels.com/photos/36034214/pexels-photo-36034214.jpeg?auto=compress&cs=tinysrgb&w=900&h=1500&fit=crop",
     "status": "downloaded"
+  },
+  {
+    "key": "garlic",
+    "kind": "product",
+    "file": "images/items/garlic.jpg",
+    "source": "AI-generated with Qoder ImageGen",
+    "status": "generated"
+  },
+  {
+    "key": "wheatGluten",
+    "kind": "product",
+    "file": "images/items/wheatGluten.jpg",
+    "source": "AI-generated with Qoder ImageGen",
+    "status": "generated"
+  },
+  {
+    "key": "sesameOil",
+    "kind": "product",
+    "file": "images/items/sesameOil.jpg",
+    "source": "AI-generated with Qoder ImageGen",
+    "status": "generated"
   }
 ]

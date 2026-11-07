@@ -13,7 +13,6 @@ const props = defineProps({
 
 const emit = defineEmits(['open', 'add'])
 
-const isDish = computed(() => props.item.category === 'dish')
 const flag = computed(() => (
   props.item.country ? SHOP_COUNTRIES.find((country) => country.id === props.item.country)?.flag : ''
 ))
@@ -28,7 +27,7 @@ const flag = computed(() => (
   >
     <div class="relative aspect-[5/4] overflow-hidden bg-stone-50">
       <FallbackImage
-        v-if="isDish"
+        v-if="item.img"
         :src="item.img"
         :alt="item.cn"
         loading="lazy"

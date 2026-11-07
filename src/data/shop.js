@@ -1,4 +1,5 @@
 import { COUNTRIES } from './countries'
+import { IMGS } from './images'
 
 const MEAL_KEYS = ['breakfast', 'lunch', 'dinner', 'dessert', 'snack', 'streetFood']
 const MEAL_TYPE_LABEL = {
@@ -74,8 +75,8 @@ export const SHOP_ITEMS = [
   { id: 'ing-pork-mince', name: 'Ground Pork', cn: '猪肉末', price: 28, unit: '300g', category: 'ingredient', country: 'china', description: '三分肥七分瘦猪肉末', stock: 85, sourceMeal: '小笼包', tags: [] },
   { id: 'ing-scallion', name: 'Scallion', cn: '葱', price: 5, unit: '1把', category: 'ingredient', country: 'china', description: '新鲜大葱', stock: 300, sourceMeal: '煎饼', tags: ['新鲜'] },
   { id: 'ing-chili', name: 'Sichuan Chili', cn: '四川辣椒', price: 12, unit: '100g', category: 'ingredient', country: 'china', description: '四川干辣椒', stock: 180, tags: ['特色'] },
-  { id: 'ing-gluten', name: 'Vital Wheat Gluten', cn: '面筋', price: 16, unit: '200g', category: 'ingredient', country: 'china', description: '小麦面筋，手工凉皮用', stock: 90, tags: [] },
-  { id: 'ing-garlic', name: 'Garlic Bulb', cn: '大蒜', price: 8, unit: '3头', category: 'ingredient', country: 'china', description: '山东紫皮大蒜', stock: 250, tags: ['新鲜'] },
+  { id: 'ing-gluten', name: 'Vital Wheat Gluten', cn: '面筋', price: 16, unit: '200g', category: 'ingredient', country: 'china', description: '小麦面筋，手工凉皮用', img: IMGS.wheatGluten, stock: 90, tags: [] },
+  { id: 'ing-garlic', name: 'Garlic Bulb', cn: '大蒜', price: 8, unit: '3头', category: 'ingredient', country: 'china', description: '山东紫皮大蒜', img: IMGS.garlic, stock: 250, tags: ['新鲜'] },
   { id: 'ing-onion', name: 'Yellow Onion', cn: '洋葱', price: 6, unit: '500g', category: 'ingredient', country: 'china', description: '甘肃黄洋葱', stock: 280, tags: ['新鲜'] },
   { id: 'ing-carrot', name: 'Organic Carrot', cn: '有机胡萝卜', price: 7, unit: '500g', category: 'ingredient', country: 'china', description: '内蒙古有机胡萝卜', stock: 220, tags: ['新鲜'] },
   { id: 'ing-ginger', name: 'Fresh Ginger', cn: '生姜', price: 10, unit: '200g', category: 'ingredient', country: 'china', description: '山东大姜', stock: 180, tags: ['新鲜'] },
@@ -99,7 +100,7 @@ export const SHOP_ITEMS = [
   { id: 'cond-takoyaki-sauce', name: 'Takoyaki Sauce', cn: '章鱼烧酱', price: 28, unit: '500ml', category: 'condiment', country: 'japan', description: '日式章鱼烧酱，甜咸适中', stock: 60, sourceMeal: '章鱼烧', tags: ['特色'] },
   { id: 'cond-rice-vinegar', name: 'Rice Vinegar', cn: '米酒醋', price: 22, unit: '500ml', category: 'condiment', country: 'china', description: '镇江香醋', stock: 110, tags: [] },
   { id: 'cond-oyster-sauce', name: 'Oyster Sauce', cn: '蚝油', price: 32, unit: '500ml', category: 'condiment', country: 'china', description: '广东蚝油，鲜味浓郁', stock: 85, tags: ['经典'] },
-  { id: 'cond-sesame-oil', name: 'Sesame Oil', cn: '香油', price: 28, unit: '250ml', category: 'condiment', country: 'china', description: '小磨香油，香气浓郁', stock: 100, tags: ['精品'] },
+  { id: 'cond-sesame-oil', name: 'Sesame Oil', cn: '香油', price: 28, unit: '250ml', category: 'condiment', country: 'china', description: '小磨香油，香气浓郁', img: IMGS.sesameOil, stock: 100, tags: ['精品'] },
 ]
 
 export const SHOP_COUNTRIES = [

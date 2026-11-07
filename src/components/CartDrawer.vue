@@ -42,7 +42,7 @@ const openItem = (item) => {
               :aria-label="`查看${entry.item.cn}`"
               @click="openItem(entry.item)"
             >
-              <FallbackImage v-if="entry.item.category === 'dish'" :src="entry.item.img" :alt="entry.item.cn" class="w-full h-full object-cover" />
+              <FallbackImage v-if="entry.item.img" :src="entry.item.img" :alt="entry.item.cn" class="w-full h-full object-cover" />
               <ProductArtwork v-else :item="entry.item" class="w-full h-full" />
             </button>
             <div class="flex-1 min-w-0">
