@@ -7,7 +7,7 @@
 
   Vue 3 · Vite 8 · Tailwind CSS 4 · JavaScript · 零后端依赖
 
-  [在线体验](https://keleau.github.io/TasteTrail/) · [Gitee 展示仓库](https://gitee.com/keleau/taste-trail) · [GitHub 仓库](https://github.com/keleau/TasteTrail)
+  [Gitee 展示仓库](https://gitee.com/keleau/taste-trail) · [GitHub 仓库](https://github.com/keleau/TasteTrail) · [在线体验](https://keleau.github.io/TasteTrail/)
 </div>
 
 ---
@@ -19,6 +19,21 @@
 **今日目的地 → 主厨来信 → 时令菜谱 → 食材加购 → 市集详情 → 购物车 → 演示结算 → 旅行护照**
 
 项目内置 **6 个国家、36 道菜、101 件商品**，所有数据与素材本地化，无需后端服务，打开浏览器即可完整体验。
+
+## 演示预览
+
+<p align="center">
+  <a href="docs/previews/demo.gif"><img src="docs/previews/demo.gif" alt="味途演示预览" width="300"></a>
+</p>
+
+> 上方为 12 秒 GIF 节选，点击可查看完整尺寸；GIF 可直接播放。
+
+| 平台 | 完整视频 |
+|---|---|
+| Gitee | [需下载后观看](https://gitee.com/keleau/taste-trail/raw/main/docs/videos/demo.mp4) |
+| GitHub | [GitHub 文件页](https://github.com/keleau/TasteTrail/blob/main/docs/videos/demo.mp4) |
+
+> GitHub 文件页对 MP4 只提供文件/下载入口；Gitee 的 MP4 需要下载后观看。
 
 ## 项目亮点
 
