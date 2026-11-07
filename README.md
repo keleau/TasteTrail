@@ -31,9 +31,9 @@
 | 平台 | 完整视频 |
 |---|---|
 | Gitee | [需下载后观看](https://gitee.com/keleau/taste-trail/blob/main/docs/videos/demo.mp4) |
-| GitHub | [GitHub 文件页](https://github.com/keleau/TasteTrail/blob/main/docs/videos/demo.mp4) |
+| GitHub | [GitHub 在线观看](https://keleau.github.io/TasteTrail/video.html) |
 
-> GitHub 文件页对 MP4 只提供文件/下载入口；Gitee 的 MP4 需要下载后观看。
+> GitHub Pages 可在线观看完整视频；Gitee 的 MP4 需要下载后观看。
 
 ## 项目亮点
 
