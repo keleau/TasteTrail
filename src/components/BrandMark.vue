@@ -1,7 +1,8 @@
 <script setup>
+// 指针指向今天的目的地；双色指针是旅程，陶土轴心是味觉。
+
 defineProps({
   size: { type: [Number, String], default: 56 },
-  framed: { type: Boolean, default: false },
 })
 </script>
 
@@ -15,33 +16,12 @@ defineProps({
     role="img"
     aria-label="味途 TasteTrail"
   >
-    <rect v-if="framed" width="64" height="64" rx="14" fill="#1C2B45" />
-    <circle v-if="framed" cx="32" cy="32" r="26" stroke="#C9A84C" stroke-width="3.5" />
-    <circle v-if="framed" cx="32" cy="32" r="21" stroke="#C9A84C" stroke-width="1.2" opacity=".5" />
-    <path d="M15 34 A17 17 0 0 0 49 34 Z" fill="#C9A84C" />
-    <path
-      d="M14 34 H50"
-      stroke="#C9A84C"
-      stroke-width="3.2"
-      stroke-linecap="round"
-    />
-    <path
-      d="M20 33 Q23 30 26 33 T32 33 T38 33"
-      stroke="#1C2B45"
-      stroke-width="1.8"
-      stroke-linecap="round"
-    />
-    <path
-      d="M37 17 L31 34"
-      stroke="#C9A84C"
-      stroke-width="2.2"
-      stroke-linecap="round"
-    />
-    <path
-      d="M41 17 L35 34"
-      stroke="#C9A84C"
-      stroke-width="2.2"
-      stroke-linecap="round"
-    />
+    <circle cx="32" cy="32" r="24.5" stroke="#C9A84C" stroke-width="2.4" />
+    <g transform="rotate(40 32 32)">
+      <path d="M32 11.5 L35 32 L29 32 Z" fill="#C9A84C" />
+      <path d="M32 52.5 L35 32 L29 32 Z" fill="#F3ECE0" />
+    </g>
+    <circle cx="32" cy="32" r="2.7" fill="#C97B5C" />
+    <circle cx="32" cy="32" r="1.1" fill="#F3ECE0" />
   </svg>
 </template>

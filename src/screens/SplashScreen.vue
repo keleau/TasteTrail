@@ -1,6 +1,5 @@
 <script setup>
 import AppIcon from '../components/AppIcon.vue'
-import BrandMark from '../components/BrandMark.vue'
 import FallbackImage from '../components/FallbackImage.vue'
 import { IMGS } from '../data'
 
@@ -19,9 +18,6 @@ const emit = defineEmits(['enter'])
     </div>
 
     <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-6">
-      <div class="fade-up-delay-1 mb-6">
-        <BrandMark :size="56" framed />
-      </div>
       <h1 class="fade-up-delay-1 font-display text-white leading-[0.95] tracking-tight" style="font-size: 82px; font-weight: 900">
         味途
       </h1>
