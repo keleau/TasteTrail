@@ -7,7 +7,7 @@
 
   Vue 3 · Vite 8 · Tailwind CSS 4 · JavaScript · 零后端依赖
 
-  [在线体验](https://keleau.github.io/TasteTrail/) · [GitHub 仓库](https://github.com/keleau/TasteTrail) · [Gitee 镜像](https://gitee.com/keleau/taste-trail)
+  [在线体验](https://keleau.github.io/TasteTrail/) · [Gitee 展示仓库](https://gitee.com/keleau/taste-trail) · [GitHub 仓库](https://github.com/keleau/TasteTrail)
 </div>
 
 ---
@@ -29,14 +29,10 @@
 | **完整业务闭环** | 菜谱配料自动匹配商城商品，一键加购、数量调整、结算成功态 |
 | **时间感知体验** | 按中国时区切换早 / 午 / 黄昏 / 夜晚，触发对应入场动画与程序化环境音 |
 | **移动端交互** | 可拖拽悬浮购物车、底部抽屉、粘性导航、滚动显现、视差主视觉 |
-| **数据驱动架构** | 36 道菜与 101 件商品全部走本地数据层，界面与数据彻底分离 |
-| **中文优先排版** | 全站中文文案 + 本地字体栈（宋体 / 黑体 / 楷体），不依赖 Google Fonts |
-| **素材全本地化** | 图片、字体随仓库分发，国内网络直接打开，无外部图床请求 |
 
 ## 技术要点
 
-- **Vue 3 组件化架构**：全程使用 Composition API 与 `<script setup>`，组件间通过 props / emits 通信，页面、组件、数据、工具函数分层清晰，无 UI 组件库、无 CSS-in-JS。
-- **数据与视图分离**：六国菜单、每日主厨、商城商品收敛在独立 data 层，UI 只负责渲染；图片资源统一映射管理。
+- **Vue 3 组件化架构**：全程使用 Composition API 与 `<script setup>`，组件间通过 props / emits 通信，页面、组件、工具函数分层清晰，无 UI 组件库、无 CSS-in-JS。
 - **智能配料匹配**：以纯函数把菜谱配料映射到商城可购商品，并对无法单独购买的配料设计“直接买整道菜”的兜底路径。
 - **状态持久化**：购物车基于 `localStorage` 封装，刷新不丢失；悬浮按钮拖拽逻辑抽为可复用 Hook。
 - **程序化音频**：用 Web Audio API 实时合成鸟鸣、咖啡馆、风铃、夜虫等环境音，不依赖任何音频文件。
@@ -155,4 +151,4 @@ npm run preview
 
 **吴东盛** · 广州城建职业学院 · 2027 届 · 计算机应用技术
 
-GitHub：[@keleau](https://github.com/keleau) · Gitee：[@keleau](https://gitee.com/keleau)
+Gitee：[@keleau](https://gitee.com/keleau) · GitHub：[@keleau](https://github.com/keleau)
